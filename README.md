@@ -19,7 +19,6 @@
    - Biblioteca que converte PDFs em imagens (frames).
    - Requer a instalação do `poppler-utils` (em sistemas Windows, é necessário baixar o binário Poppler e configurá-lo no PATH).
 
----
 
 ### Instalação dos Módulos
 
@@ -39,4 +38,25 @@
 1. O usuário seleciona a pasta onde os PDFs estão localizados.
 2. O usuário escolhe a pasta onde as imagens serão salvas.
 3. Ao clicar em "Converter", o programa processa os PDFs na pasta de entrada e converte cada página em uma imagem, salvando-as na pasta de saída.
+
+
+### Explicações Adicionais
+
+1. **Barra de Progresso (`ttk.Progressbar`)**:
+   - Widget usado para mostrar o progresso da conversão.  
+   - O método `["value"]` é atualizado em cada iteração para refletir o progresso atual.
+
+2. **Percentagem do Progresso (`percentagem_var`)**:
+   - Mostra o progresso em formato de percentagem.  
+   - Calculado como `(número de PDFs processados / total de PDFs) * 100`.
+
+3. **Método `update_idletasks`**:
+   - Atualiza a interface gráfica durante loops, garantindo que os elementos visuais (barra de progresso e percentagem) sejam renderizados corretamente.
+
+---
+
+### Como Funciona?
+1. O progresso é baseado na quantidade de ficheiros PDF processados.
+2. A barra e o texto da percentagem atualizam a cada PDF convertido.
+3. Ao finalizar, uma mensagem de sucesso é exibida.
 
