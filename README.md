@@ -21,7 +21,9 @@
    - Requer a instalação do `poppler-utils` (em sistemas Windows, é necessário baixar o binário Poppler e configurá-lo no PATH).
 
 
-### Instalação dos Módulos
+### Instalação dos Módulos - 
+- [Poppler](https://github.com/0joseDark/Convert-PDF-to-frams/blob/main/tool/Poppler.md)
+
 
 1. **Instalar o pdf2image**:  
    ```
