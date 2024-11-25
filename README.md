@@ -22,15 +22,14 @@
 
 
 ### Instalação dos Módulos - 
-- [Poppler](https://github.com/0joseDark/Convert-PDF-to-frams/blob/main/tool/Poppler.md)
-
 
 1. **Instalar o pdf2image**:  
    ```
    pip install pdf2image
    ```
 
-2. **Instalar o Poppler**:  
+2. **Instalar o Poppler**:
+3. -   - [Poppler](https://github.com/0joseDark/Convert-PDF-to-frams/blob/main/tool/Poppler.md)
    - Baixe o Poppler para Windows em [Poppler for Windows](https://github.com/oschwartz10612/poppler-windows).
    - Extraia o conteúdo e adicione o caminho da pasta `bin` às variáveis de ambiente do Windows.
 
