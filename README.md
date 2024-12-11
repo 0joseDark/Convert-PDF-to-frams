@@ -55,7 +55,9 @@
 3. **Método `update_idletasks`**:
    - Atualiza a interface gráfica durante loops, garantindo que os elementos visuais (barra de progresso e percentagem) sejam renderizados corretamente.
 
----
+```bash
+pip install PyPDF2
+```
 
 ### Como Funciona?
 1. O progresso é baseado na quantidade de ficheiros PDF processados.
